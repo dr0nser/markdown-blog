@@ -9,7 +9,8 @@
 
 ### Requirements
 
-- MongoDB Compass needs to be installed
+- Node JS installed
+- MongoDB Compass installed
 
 ### How to run ?
 
