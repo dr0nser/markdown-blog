@@ -1,0 +1,14 @@
+<div class="mb-3">
+    <label for="title" class="form-label">Title</label>
+    <input type="text" value="<%= article.title %>" name="title" id="title" class="form-control" required>
+</div>
+<div class="mb-3">
+    <label for="description" class="form-label">Description</label>
+    <textarea name="description" id="description" cols="30" rows="2" class="form-control text-muted" required><%= article.description %></textarea>
+</div>
+<div class="mb-3">
+    <label for="markdown" class="form-label">Markdown</label>
+    <textarea name="markdown" id="markdown" cols="30" rows="10" class="form-control text-muted" placeholder="Write here..." required><%= article.markdown %></textarea>
+</div>
+<a href="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="my-4 btn btn-primary">Save</button>
